@@ -1,0 +1,56 @@
+h1 {
+    color: blue;
+}
+
+#yourCustomTaco {
+	border: 2px solid blue;
+}
+#tacoCreator {
+    top: 15%;
+    width: 59%;
+    float: left;
+    border: 2px solid blue;
+    overflow: scroll;
+}
+
+
+#footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+
+#tacoOrder {
+	top: 15%;
+	right: 0;
+	width: 100%;
+	float: left;
+	border: 2px solid blue;
+	overflow: scroll;
+}
+#tacoCreator {
+	top: 15%;
+	width: 100%;
+	float: left;
+	border: 2px solid blue;
+	overflow: scroll;
+}	
+
+@media screen and (min-width: 460px) {
+	#tacoOrder {
+		top: 15%;
+		right: 0;
+		width: 40%;
+		float: right;
+		border: 2px solid blue;
+		overflow: scroll;
+	}
+	
+	#tacoCreator {
+		top: 15%;
+		width: 59%;
+		float: left;
+		border: 2px solid blue;
+		overflow: scroll;
+	}
+}
